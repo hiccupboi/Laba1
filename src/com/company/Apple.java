@@ -9,23 +9,12 @@ public class Apple extends Food{
     public void consume() {
         System.out.println(this + " съедено.");
     }
-    public String getSize() {
-        return size;
-    }
+    public String getSize() { return size; }
     public void setSize(String size) {
         this.size = size;
     }
-    /*
-    public boolean equals(Object arg0) {
-        if(super.equals(arg0)){
-            if(!(arg0 instanceof Apple)) return false;
-            return size.equals(((Apple)arg0).size);
-        } else
-            return false;
-    }
-    */
+
     public String toString() {
         return super.toString() + " размера '" + size.toUpperCase() + "'";
     }
-
 }
