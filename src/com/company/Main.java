@@ -2,7 +2,7 @@ package com.company;
 
 public class Main {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args){
         Food[] breakfast = new Food[20];
         int itemSoFar = 0;
         int CheeseAm = 0, AppleAm = 0, CakeAm = 0;
